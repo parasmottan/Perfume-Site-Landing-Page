@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Rock+3D&display=swap');
+
+
+* {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body {
+
+  background-color: #200C3C;
+
+
+}
+
+
+nav {
+
+  height: 85px;
+  background-color: #f798f26d;
+  box-shadow: 0 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+nav img {
+  padding-left: 20px;
+  padding-top: 30px;
+
+  width: 22px;
+  height: 22px;
+
+}
+
+
+.navbar {
+
+  margin-left: 750px;
+
+
+
+
+
+
+}
+
+
+
+span a {
+  text-decoration: none;
+  color: #E79FC9;
+  font-size: 13px;
+
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-right: 122px;
+  margin-bottom: 30px;
+  display: inline-block;
+  position: relative;
+
+
+}
+
+span a::after{
+  content: '';
+  position: absolute;
+  width: 60px;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #E79FC9;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+span a:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+
+
+}
+
+
+
+
+.navcont {
+
+
+  margin-bottom: 20px;
+
+}
+
+
+
+#icon1 {
+  margin-left: 150px;
+  width: 127.06px;
+  height: 390.32px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  transform: rotate(180deg);
+  margin-top: 130px;
+  transition: 3s;
+  border-radius: 20px;
+}
+
+
+#icon2 {
+  border-radius: 20px;
+  width: 127.06px;
+  height: 390.32px;
+  margin-left: 20px;
+  
+  transform: rotate(235deg);
+  transition: 6s;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+#icon3 {
+  border-radius: 20px;
+  width: 127.06px;
+  height: 390.32px;
+  margin-left: 26px;
+  transform: rotate(40deg);
+  transition: 9s;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+#icon1:hover {
+
+  transform: rotate(0deg);
+  transition: 3s;
+
+}
+
+
+#icon2:hover {
+
+  transform: rotate(0deg);
+  transition: 3s;
+
+}
+
+#icon3:hover {
+
+  transform: rotate(0deg);
+  transition: 3s;
+
+}
+
+
+.name {
+position: absolute;
+  margin-left: 200px;
+  font-family: "Rock 3D", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+color: #bb9fe7a3;
+top: 250px;
+right: 270px;
+box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+border-radius: 20px;
+}
+
+
+
+.para{
+font-size: 20px;
+width:521px ;
+/* height:238px ; */
+display: flex;
+margin-left:760px;
+margin-top: -257px;
+font-family: "Cinzel Decorative", serif;
+  /* font-weight: 400; */
+  font-style: normal;
+  color: #826FA2;
+  text-align: center;
+ 
+}
+
+
+.btn{
+cursor: pointer;
+position: absolute ;
+right: 450px;
+bottom: 160px;
+ padding:10px; 
+ font-family: "Cinzel Decorative", serif;
+  /* font-weight: 400; */
+  font-style: normal;
+  color: #826FA2;
+  text-align: center;
+  background-color: transparent;
+  border: 0.5px black solid;
+  width: 140px;
+  transition: 0.4s;
+  
+}
+
+
+.btn:hover{
+  transition: 0.4s;
+background-color: #604e712e;
+/* height: 70px; */
+}
